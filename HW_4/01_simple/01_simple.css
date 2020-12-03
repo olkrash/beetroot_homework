@@ -12,8 +12,10 @@ header {
     height: 40px;
     margin: 40px -8px 35px 0;
 }
-.no_decore1
-{text-decoration: none}
+
+.no_decore1 {
+    text-decoration: none
+}
 
 .main_picture {
     width: 100%;
