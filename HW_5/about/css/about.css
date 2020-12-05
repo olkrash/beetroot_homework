@@ -131,20 +131,19 @@ section {
     height: 200px;
 }
 
-.feature1, .feature2, .feature3 {
+.feature {
     font-size: 24px;
     line-height: 24px;
     margin: 20px;
-    /*text-align: center;*/
 }
 
-.desc1, .desc2, .desc3 {
+.desc {
     text-align: center;
     float: left;
     width: 330px;
 }
 
-.desc1, .desc2 {
+.desc:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -160,7 +159,7 @@ section {
     display: inline-block;
 }
 
-.rect1, .rect2, .rect3 {
+.rect {
     top: 0;
     left: 0;
 }

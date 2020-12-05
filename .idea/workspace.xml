@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW_5/about/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW_5/about/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW_5/about/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW_5/about/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_5/kasper/css/kasper.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW_5/kasper/css/kasper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_5/kasper/html/kasper.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW_5/kasper/html/kasper.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HW_4/02_hard" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +69,7 @@
       <workItem from="1606986907549" duration="20084000" />
       <workItem from="1607086742692" duration="2724000" />
       <workItem from="1607161296204" duration="175000" />
-      <workItem from="1607161483436" duration="24623000" />
+      <workItem from="1607161483436" duration="26897000" />
     </task>
     <servers />
   </component>
@@ -78,7 +81,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
