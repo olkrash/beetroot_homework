@@ -1,0 +1,107 @@
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-flex;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 85px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #ffae00;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+section {
+    width: 45%;
+    display: inline-block;
+}
+
+.sect2 {
+    margin-left: 5%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffae00;
+    vertical-align: top;
+    border: 3px solid #ffae00;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.skill-count .line {
+    height: 5px;
+    background-color: #ffae00;
+}
+
+.line.ps {
+    width: calc(90% - 40px);
+}
+
+.line.il {
+    width: calc(85% - 40px);
+}
+
+.line.hc {
+    width: calc(89% - 40px);
+}
+
+.line.wd {
+    width: calc(87% - 40px);
+}
+
+.line.uu {
+    width: calc(95% - 40px);
+}
+
+.number {
+    box-sizing: border-box;
+    width: 35px;
+    height: 15px;
+    background-color: #FFAE00;
+    color: #fff;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 14px;
+    padding: 0;
+}
+
+.line {
+    margin:10px 0;
+    float: left;
+}
+
+.skill-wrapper {
+    clear: both;
+}
+
+.skill-wrapper p {
+    margin :0;
+}
+
