@@ -1,6 +1,16 @@
+body {
+    background-color: #070709;
+}
+
+/*Main section start*/
 main {
     width: 1140px;
     margin: 0 auto;
+}
+
+.main_container {
+    background-color: white;
+    padding: 50px 0;
 }
 
 .container {
@@ -41,6 +51,7 @@ section {
     margin-left: 5%;
 }
 
+/*Button-start*/
 .btn {
     display: inline-block;
     background-color: #ffae00;
@@ -54,6 +65,8 @@ section {
     text-transform: uppercase;
 }
 
+/*Button end*/
+/*Line start*/
 .skill-count .line {
     height: 5px;
     background-color: #ffae00;
@@ -93,15 +106,85 @@ section {
 }
 
 .line {
-    margin:10px 0;
+    margin: 10px 0;
     float: left;
 }
 
+/*Line end*/
 .skill-wrapper {
     clear: both;
 }
 
 .skill-wrapper p {
-    margin :0;
+    margin: 0;
 }
+
+/*Main section end*/
+/*Body section start*/
+.wrap_body {
+    text-align: center;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 100px auto;
+    width: 1140px;
+    height: 200px;
+}
+
+.feature1, .feature2, .feature3 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 20px;
+    /*text-align: center;*/
+}
+
+.desc1, .desc2, .desc3 {
+    text-align: center;
+    float: left;
+    width: 330px;
+}
+
+.desc1, .desc2 {
+    margin-right: 50px;
+}
+
+.feature_desc {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/*Pictures*/
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.rect1, .rect2, .rect3 {
+    top: 0;
+    left: 0;
+}
+
+/*Picture 1*/
+.hey {
+    position: absolute;
+    top: 21px;
+    left: 26px;
+}
+
+/*Picture 2*/
+.comp {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+/*Picture 3*/
+.send {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*Body section end*/
 
