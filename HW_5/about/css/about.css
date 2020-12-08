@@ -1,0 +1,189 @@
+body {
+    background-color: #070709;
+}
+
+/*Main section start*/
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main_container {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.container {
+    display: inline-flex;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 85px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #ffae00;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+section {
+    width: 45%;
+    display: inline-block;
+}
+
+.sect2 {
+    margin-left: 5%;
+}
+
+/*Button-start*/
+.btn {
+    display: inline-block;
+    background-color: #ffae00;
+    vertical-align: top;
+    border: 3px solid #ffae00;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+/*Button end*/
+/*Line start*/
+.skill-count .line {
+    height: 5px;
+    background-color: #ffae00;
+}
+
+.line.ps {
+    width: calc(90% - 40px);
+}
+
+.line.il {
+    width: calc(85% - 40px);
+}
+
+.line.hc {
+    width: calc(89% - 40px);
+}
+
+.line.wd {
+    width: calc(87% - 40px);
+}
+
+.line.uu {
+    width: calc(95% - 40px);
+}
+
+.number {
+    box-sizing: border-box;
+    width: 35px;
+    height: 15px;
+    background-color: #FFAE00;
+    color: #fff;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 14px;
+    padding: 0;
+}
+
+.line {
+    margin: 10px 0;
+    float: left;
+}
+
+/*Line end*/
+.skill-wrapper {
+    clear: both;
+}
+
+.skill-wrapper p {
+    margin: 0;
+}
+
+/*Main section end*/
+/*Body section start*/
+.wrap_body {
+    text-align: center;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 100px auto;
+    width: 1140px;
+    height: 200px;
+}
+
+.feature {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.desc {
+    text-align: center;
+    float: left;
+    width: 330px;
+}
+
+.desc:not(:last-child) {
+    margin-right: 50px;
+}
+
+.feature_desc {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/*Pictures*/
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.rect {
+    top: 0;
+    left: 0;
+}
+
+/*Picture 1*/
+.hey {
+    position: absolute;
+    top: 21px;
+    left: 26px;
+}
+
+/*Picture 2*/
+.comp {
+    position: absolute;
+    top: 25px;
+    left: 22px;
+}
+
+/*Picture 3*/
+.send {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*Body section end*/
+
