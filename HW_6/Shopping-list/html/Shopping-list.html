@@ -7,50 +7,46 @@
     <link rel="stylesheet" href="../css/Shopping-list.css">
 </head>
 <body>
-<main>
-    <h1>CSS Diner shopping list</h1>
-    <h6>Let`s go to the mall!</h6>
-    <form>
-        <ul>
-            <li>
-                <label for="Item1">
-                    <input type="checkbox" id="Item1">
-                    A lot of pickles<br>
-                </label>
-            </li>
-            <li>
-                <label for="Item2">
-                    <input type="checkbox" id="Item2">
-                    10 apples<br>
-                </label>
-            </li>
-            <li>
-                <label for="Item3">
-                    <input type="checkbox" id="Item3">
-                    20 oranges<br>
-                </label>
-            </li>
-            <li>
-                <label for="Item4">
-                    <input type="checkbox" id="Item4">
-                    13 plates<br>
-                </label>
-            </li>
-            <li>
-                <label for="Item5">
-                    <input type="checkbox" id="Item5">
-                    15 bentos<br>
-                </label>
-            </li>
-            <li>
-                <label for="Item6">
-                    <input type="checkbox" id="Item6">
-                    1 bottle of Sake ^_^<br>
-                </label>
-            </li>
-        </ul>
-        <h6>Bon appetit :)</h6>
-    </form>
-</main>
+<div class="main-container">
+    <div class="header-container">
+        <header><h1>CSS Diner shopping list</h1>
+                <h4>Let`s go to the mall!</h4></header>
+    </div>
+    <div class="main-footer-wrapper">
+        <main>
+            <form>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="Item1" class="pickles">
+                        <label for="Item1"> A lot of pickles<span> for the next lessons about css </span></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Item2" class="apples">
+                        <label for="Item2">10 apples<span> for more CSS manipulations </span></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Item3" class="oranges">
+                        <label for="Item3">20 oranges<span> bacause they are awesome </span></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Item4">
+                        <label for="Item4">13 plates<span> hm... they always disappear </span></label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Item5">
+                        <label for="Item5">15 bentos</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Item6">
+                        <label for="Item6">1 bottle of Sake ^_^<span> for my friends </span></label>
+                    </li>
+                </ul>
+            </form>
+        </main>
+        <div class="footer-container">
+            <footer><h4>Bon appetit :)</h4></footer>
+        </div>
+    </div>
+</div>
 </body>
 </html>

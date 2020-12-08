@@ -1,14 +1,69 @@
-/*В решении обязательно должны быть использованы селекторы:*/
-/*по элементу*/
-/*по классу*/
-/*по атрибуту*/
-/*селектор соседей “+”*/
-/*:hover*/
-/*:active*/
-/*:checked*/
-/*:before и :after*/
-/*:nth-child*/
-/*Для плавных анимаций используйте CSS-код:*/
-/**{transition: all .1s ease-in;}*/
-/*Цвета определяйте с помощью “pixie”, или другого похожего инструмента.*/
-/*Шрифт: \'Trebuchet MS\', Trebuchet, Arial, sans-serif*/
+* {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    transition: all .1s ease-in;
+}
+.main-container {
+    margin: 20px;
+    padding-bottom: 45px;
+    background-color: #3b3f45;
+    color: white;
+}
+.header-container, .footer-container {
+    background-color: #4a4f56;
+    text-align: center;
+    color: #eb7e74;
+}
+.main-footer-wrapper {
+    margin: 25px 300px 70px;
+}
+header {
+    padding: 1px;
+}
+header > h1 {
+    margin-bottom: -15px;
+}
+footer {
+    height: 60px;
+    margin-top:40px;
+}
+footer > h4 {
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    background-color: #7a7593;
+    padding-left: 0;
+}
+li {
+    padding: 10px;
+}
+li:nth-child(odd) {
+    background-color: #88839e;
+}
+li:hover {
+    background-color: #625e77;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+span {
+    font-size: 13px;
+    color: #c8b6b1;
+}
+span:before {
+    content: ' (';
+    display: inline;
+}
+span:after {
+    content: ')';
+    display: inline;
+
+}
+input[type=checkbox]:checked + label,
+input[type=checkbox]:checked + label > span {
+    text-decoration-line: line-through;
+    text-decoration-color: #a3a0af;
+    color: #a3a0af;
+}
+li:active {
+    background-color: #eb7e74;
+}
