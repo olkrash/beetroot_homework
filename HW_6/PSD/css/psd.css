@@ -1,0 +1,61 @@
+body{
+    width: 1550px;
+    height: 290px;
+    color: #ffffff;
+}
+.main_wrapper{
+    display: inline-block;
+    margin: 55px 305px 20px 305px;
+}
+.section, .name_section, .img_wrapper, .sub_sec{
+    text-align: center;
+}
+.section{
+    float:left;
+    margin-right:40px;
+}
+.name_section{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 13px;
+}
+.sub_sec{
+    width: 260px;
+    height: 51px;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-transform: none;
+    color: #9d9d9d;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif
+    /*Found similar font, which is not prepaid (as on PSD file), but it has'nt axact boldness.*/
+}
+/*Font-awesome starts*/
+.img_wrapper{
+    position: relative;
+    display: inline-block;
+}
+.circle1 {
+    background: #2a69a6;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: #2a69a6 1px solid;
+    margin-bottom: 15px;
+}
+.circle1 i {
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 60px;
+}
+.circle1:hover {
+    background: white;
+    color:  #2a69a6;
+}
+/*Font-awesome ends*/
