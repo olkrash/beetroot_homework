@@ -2,7 +2,6 @@
     transition: all .1s ease-in;
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
     color: #ffff;
-    /*border: 5px solid #2b81ac;*/
 }
 
 html {
@@ -10,10 +9,6 @@ html {
     height: 100%;
     background-color: #3399cc;
     box-sizing: border-box;
-}
-
-.ul-wrapper li:hover {
-    opacity: 100%!important;
 }
 
 .main-wrapper {
@@ -28,7 +23,6 @@ header footer {
 
 li > i, li > span {
     color: white;
-    opacity: 0.5;
 }
 
 i.wi.wi-celsius {
@@ -36,20 +30,9 @@ i.wi.wi-celsius {
     vertical-align: middle;
 }
 
-/*Borders*/
-ul:not(:last-child) {
-    border-bottom: 4px white solid;
-}
-
-ul li:not(:last-child) {
-    border-right: 4px white solid;
-}
-
 .ul-wrapper {
     text-align: center;
     font-size: 18px;
-    border: 4px white solid;
-    opacity: 0.5;
 }
 
 ul {
@@ -63,6 +46,28 @@ li {
     font-size: 25px;
     box-sizing: border-box;
     padding: 20px 0;
+    opacity: 0.5;
+    border: 2px white solid;
+}
+
+ul:first-child li {
+    border-top: 4px white solid;
+}
+
+ul:last-child li {
+    border-bottom: 4px white solid;
+}
+
+ul li:last-child {
+    border-right: 4px white solid;
+}
+
+ul li:first-child {
+    border-left: 4px white solid;
+}
+
+li:hover {
+    opacity: 1;
 }
 
 /*First line*/
