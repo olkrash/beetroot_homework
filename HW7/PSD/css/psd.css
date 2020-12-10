@@ -65,20 +65,6 @@ p {
     padding: 0 10%;
 }
 
-/*p:hover{*/
-/*    width: 174px;*/
-/*    height: 101px;*/
-/*    margin: 31px 0 0;*/
-/*    font-family: PTSans;*/
-/*    font-size: 14px;*/
-/*    font-weight: normal;*/
-/*    font-stretch: normal;*/
-/*    font-style: normal;*/
-/*    line-height: 1.57;*/
-/*    letter-spacing: normal;*/
-/*    text-align: center;*/
-/*    color: #ffffff;*/
-/*}*/
 .services-item {
     cursor: pointer;
     color: #1b1b1b;
