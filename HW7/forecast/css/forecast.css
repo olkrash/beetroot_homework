@@ -1,0 +1,134 @@
+* {
+    transition: all .1s ease-in;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: #ffff;
+}
+
+html {
+    border: 20px solid #2b81ac;
+    height: 100%;
+    background-color: #3399cc;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header footer {
+    text-align: left;
+}
+
+li > i, li > span {
+    color: white;
+}
+
+i.wi.wi-celsius {
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.ul-wrapper {
+    text-align: center;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    opacity: 0.5;
+    border: 2px white solid;
+}
+
+ul:first-child li {
+    border-top: 4px white solid;
+}
+
+ul:last-child li {
+    border-bottom: 4px white solid;
+}
+
+ul li:last-child {
+    border-right: 4px white solid;
+}
+
+ul li:first-child {
+    border-left: 4px white solid;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+/*First line*/
+.ul-wrapper ul:first-child li:first-child {
+    background-color: #3399cc;
+    width: 50%;
+}
+
+.ul-wrapper ul:first-child li:nth-child(2) {
+    background-color: #33cccc;
+    width: 25%;
+}
+
+.ul-wrapper ul:first-child li:last-child {
+    background-color: #996699;
+    width: 25%;
+}
+
+/*Second line*/
+.ul-wrapper ul:nth-child(2) li:first-child {
+    background-color: #c24747;
+    width: 25%;
+}
+
+.ul-wrapper ul:nth-child(2) li:nth-child(2) {
+    background-color: #e2674a;
+    width: 25%;
+}
+
+.ul-wrapper ul:nth-child(2) li:nth-child(3) {
+    background-color: #ffcc66;
+    width: 25%;
+}
+
+.ul-wrapper ul:nth-child(2) li:last-child {
+    background-color: #99cc99;
+    width: 25%;
+}
+
+/*Third line*/
+.ul-wrapper ul:nth-child(3) li:first-child {
+    background-color: #669999;
+    width: 25%;
+}
+
+.ul-wrapper ul:nth-child(3) li:nth-child(2) {
+    background-color: #cc6699;
+    width: 50%;
+}
+
+.ul-wrapper ul:nth-child(3) li:nth-child(3) {
+    background-color: #339966;
+    width: 25%;
+}
+
+/*Fourth line*/
+.ul-wrapper ul:nth-child(4) li:first-child {
+    background-color: #666699;
+    width: 100%;
+}
+
+li p {
+    margin: 0 0 10px 0;
+}
