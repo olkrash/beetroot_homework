@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'mylocalfont';
+    src: url('../Proxima Nova/Proxima Nova Regular.otf');
+}
+body{
+    margin: 0 auto;
+    height: calc(100vh + 50px);
+    width:1300px;
+    border-left: 2px solid #e8eced;;
+}
+.wrapper {
+    margin: 5% auto;
+    width: 1102px;
+}
+.title {
+    width: 100%;
+    padding: 50px 0 50px 50px;
+    margin-left: 185px;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+}
+.title1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: #767676;
+}
+.start {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 1.96;
+    color: #fefefe;
+    font-weight: 100;
+}
+.horizontal-line {
+    height: 2px;
+    background-color: #767676;
+}
+.orange-line {
+    width: 844px;
+    height: 45px;
+    margin: 0 0 41px 249px;
+    padding: 22px 202px 22px 42px;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;
+}
+.author {
+    font-family: 'mylocalfont', sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #b4b4b4;
+}
+.sub-title1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 0.94;
+    text-align: left;
+    color: #2a2a2a;
+}
+.sub-title2 {
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 2.07;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #8f8f8f;
+}
+p {
+    font-family: 'Tinos', serif;
+    font-size: 27px;
+    line-height: 1.48;
+    text-align: justify;
+    color: #000000;
+}
+span {
+    font-style: italic;
+}
+img{
+    margin-left: 25px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    color: white;
+}
