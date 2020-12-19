@@ -1,0 +1,137 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    background-image: url(../nike_psd/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #111a28;
+    width: 750px;
+    height: 400px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.logo__img {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+}
+
+.wrapper-item__img {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.title {
+    text-align: left;
+}
+
+.title__1 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3.48px;
+    font-weight: 200;
+    color: #e1e1e1;
+    margin-bottom: 10px;
+    margin-top: 25%;
+
+}
+
+.title__2 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+    letter-spacing: 0.28px;
+    color: rgba(225, 225, 225, 0.54);
+    margin-bottom: 4%;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots__dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 22%;
+    margin-left: 2%;
+}
+
+.dots__dot1 {
+    background-color: black;
+}
+
+.dots__dot2 {
+    background-color: white;
+}
+
+.dots__dot3 {
+    background-color: red;
+}
+
+.dots__dot4 {
+    background-color: #0ec8cb;
+}
+
+.dots__dot:hover {
+    border: 1px solid white;
+    background-color: #111a28;
+    box-sizing: content-box;
+}
+
+.selects select {
+    width: 69px;
+    height: 32px;
+    opacity: 0.5;
+    border: solid 1px #ffffff;
+    background-color: #111a28;
+    color: #e1e1e1;
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+.gty__title,
+.size__title,
+.add__text {
+    text-align: left;
+}
+
+.gty__title,
+.size__title {
+    width: 24px;
+    height: 11px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.29;
+    letter-spacing: 0.28px;
+    color: #e1e1e1;
+}
+
+.add {
+    width: 184px;
+    height: 40px;
+    opacity: 0.5;
+    border: solid 1px #ffffff;
+    background-color: #4c525a;
+    margin-top: 12%;
+}
+
+.add__text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.28px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
