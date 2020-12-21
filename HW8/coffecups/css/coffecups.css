@@ -1,7 +1,7 @@
 html{
     background-color: #fdde7e;
 }
-.wrapper{
+.main-wrapper{
     height: 100vh;
     display: inline-flex;
     flex-direction: row;
