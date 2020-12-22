@@ -1,0 +1,83 @@
+#auth_page {
+    background: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.form {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    width: 400px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    box-shadow: 0 10px 13px -7px #000000, 0 27px 15px -6px rgba(56, 56, 56, 0.5);
+}
+
+* {
+    text-align: left;
+}
+
+.form__header div,
+.form__footer div {
+    display: inline-block;
+}
+
+.form__sign,
+.form__join {
+    color: #fbf6e4;
+    font-size: 18px;
+    flex-direction: row;
+}
+
+.form__sign,
+.form__join,
+.form__pass,
+.form__user,
+.form__check,
+.form__button {
+    font-weight: bold;
+}
+
+.footer__forgot,
+.footer__create {
+    font-weight: normal;
+    color: #b9b9cc;
+    font-size: 13px;
+}
+
+.form__pass,
+.form__user {
+    font-size: 16px;
+}
+
+.form__pass,
+.form__user,
+.form__check {
+    color: #fbf6e4;
+
+}
+
+input {
+    background-color: transparent;
+    border: solid 2px rgba(191, 185, 204, 0.54);
+}
+
+.form__button {
+    background-color: #23ae92;
+    border: none;
+    color: white;
+    padding: 13px 102px 12px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 261px;
+    height: 42px;
+}
