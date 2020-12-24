@@ -1,0 +1,141 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+/*Section header start*/
+.section__header {
+    width: 1920px;
+    height: 1072px;
+    background-image: url("../media/hero-bg.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: #cccccc;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.header__working{
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 8.64px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.header__title{
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    width: 579px;
+    height: 70px;
+    text-align: center;
+}
+.scroll{
+    margin-top: 245px;
+}
+.logo--eclipse{
+    margin-bottom: 70px;
+}
+/*Module test*/
+
+
+/*Module test*/
+/*Section header end*/
+.section__about{
+    width: 1920px;
+    height: 600px;
+    background-color: #ffffff;
+    color: #3c3c3c;
+}
+.section__title{
+    font-weight: bold;
+    font-size: 34px;
+}
+.section__subtitle{
+    font-weight: lighter;
+    font-size: 16px;
+
+}
+.section__title--white,
+.section__subtitle--white{
+    color: white;
+}
+/*Section test*/
+.module {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    border-radius: 3px;
+    padding: 12px;
+    box-sizing: padding-box;
+    position: relative;
+    border-right: 1px solid #1fa2ed;
+    border-bottom: 1px solid #1fa2ed;
+    border-left: 1px solid #1fa2ed;
+}
+
+.module__top {
+    cursor: move;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.module__top::before {
+    border-radius: 3px 0 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    height: 1px;
+    border-top: 1px solid #1fa2ed;
+}
+.module__top::after {
+    border-radius: 0 3px 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    height: 1px;
+    border-top: 1px solid #1fa2ed;
+}
+
+.top__content {
+    height: 26px;
+    color: #1fa2ed;
+    font: 12px/32px Helvetica;
+    font-weight: bold;
+    overflow: hidden;
+    flex: 0 0 70px;
+    margin-top: -18px;
+    text-align: center;
+}
+
+.module__contents {
+    background: #606060;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Section test*/
+
+/*Section services start*/
+.section__services{
+    height: 500px;
+    background-color: #ffffff;
+    background-image: url(../media/services.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+/*Section services end*/
+
+/*Section what start*/
+.section__what{
+    height: 1422px;
+    background-color: #ffffff;
+}
+/*Section what end*/
