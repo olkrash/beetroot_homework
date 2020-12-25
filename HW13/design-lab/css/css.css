@@ -42,41 +42,40 @@
 
 /*Module test*/
 /*Section header end*/
-.section__about{
+.module__top{
     width: 1920px;
     height: 600px;
     background-color: #ffffff;
     color: #3c3c3c;
 }
-.section__title{
+.top__content{
     font-weight: bold;
     font-size: 34px;
 }
-.section__subtitle{
+.module__contents{
     font-weight: lighter;
     font-size: 16px;
+    text-align: center;
 
 }
 .section__title--white,
-.section__subtitle--white{
+.section__subtitle--white {
     color: white;
 }
 /*Section test*/
-.module {
-    width: 400px;
-    height: 200px;
+.section__about{
+    width: 902px;
+    height: 312px;
     position: relative;
-    margin: 20px;
+    border-right: solid 2px #3c3c3c;
+    border-bottom: solid 2px #3c3c3c;
+    border-left: solid 2px #3c3c3c;
     border-radius: 3px;
-    padding: 12px;
     box-sizing: padding-box;
-    position: relative;
-    border-right: 1px solid #1fa2ed;
-    border-bottom: 1px solid #1fa2ed;
-    border-left: 1px solid #1fa2ed;
+    margin: 160px 510px 159px 508px;
+    padding: 77px 171px 29px 178px;
 }
-
-.module__top {
+.section__top-title{
     cursor: move;
     display: flex;
     flex-direction: row;
@@ -85,44 +84,36 @@
     top: 0;
     left: 0;
 }
-
-.module__top::before {
+.section__top-title::before {
     border-radius: 3px 0 0 0;
     display: block;
     content: "";
     flex: 2 0 0;
     height: 1px;
-    border-top: 1px solid #1fa2ed;
+    border-top: solid 2px #3c3c3c;
 }
-.module__top::after {
+.section__top-title::after {
     border-radius: 0 3px 0 0;
     display: block;
     content: "";
     flex: 2 0 0;
     height: 1px;
-    border-top: 1px solid #1fa2ed;
+    border-top: solid 2px #3c3c3c;
 }
-
-.top__content {
-    height: 26px;
-    color: #1fa2ed;
-    font: 12px/32px Helvetica;
+.section__title {
+    height: 48px;
+    color: #3c3c3c;
+    font-size: 34px;
     font-weight: bold;
     overflow: hidden;
-    flex: 0 0 70px;
-    margin-top: -18px;
+    flex: 1 0 235px;
+    margin-top: -31px;
     text-align: center;
 }
-
-.module__contents {
-    background: #606060;
+.section__subtitle {
     height: 100%;
     width: 100%;
 }
-
-
-/*Section test*/
-
 /*Section services start*/
 .section__services{
     height: 500px;
@@ -139,3 +130,47 @@
     background-color: #ffffff;
 }
 /*Section what end*/
+
+/*Section slider start*/
+.section__slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    height: 489px;
+}
+
+.slider__tab{
+    width: 548px;
+    height: 237px;
+
+}
+.slider__tab1{
+    width: 802px;
+    height: 237px;
+
+}
+.tab__1{
+    background-image: url("../media/topworkz.png");
+
+}
+.tab__3{
+     background-image: url("../media/joint.png");
+ }
+.tab__2{
+    background-image: url("../media/market.png");
+}
+
+.tab__5{
+    background-image: url("../media/worktop.png");
+}
+.tab__4{
+    background-image: url("../media/label.png");
+}
+
+.tab__6{
+    background-image: url("../media/kyiv.png");
+}
+/*Section slider end*/
