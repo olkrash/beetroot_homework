@@ -1,21 +1,20 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
 }
+
 /*Section header start*/
 .section__header {
     width: 1920px;
     height: 1072px;
-    background-image: url("../media/hero-bg.png");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background: url("../media/hero-bg.png") center no-repeat #cccccc;
     background-size: cover;
-    background-color: #cccccc;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
-.header__working{
+
+.header__working {
     font-weight: bold;
     font-size: 54px;
     letter-spacing: 8.64px;
@@ -23,7 +22,8 @@
     text-align: center;
     margin-bottom: 55px;
 }
-.header__title{
+
+.header__title {
     font-size: 15px;
     letter-spacing: 0.9px;
     color: #ffffff;
@@ -31,39 +31,35 @@
     height: 70px;
     text-align: center;
 }
-.scroll{
+
+.scroll {
     margin-top: 245px;
 }
-.logo--eclipse{
+
+.logo--eclipse {
     margin-bottom: 70px;
 }
-/*Module test*/
 
-
-/*Module test*/
 /*Section header end*/
-.module__top{
-    width: 1920px;
-    height: 600px;
-    background-color: #ffffff;
-    color: #3c3c3c;
-}
-.top__content{
+.top__content {
     font-weight: bold;
     font-size: 34px;
 }
-.module__contents{
-    font-weight: lighter;
+
+.module__contents {
+    font-weight: 300;
     font-size: 16px;
     text-align: center;
+}
+/*Section about*/
+.section__about {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
 
-}
-.section__title--white,
-.section__subtitle--white {
-    color: white;
-}
-/*Section test*/
-.section__about{
+.module {
     width: 902px;
     height: 312px;
     position: relative;
@@ -71,11 +67,11 @@
     border-bottom: solid 2px #3c3c3c;
     border-left: solid 2px #3c3c3c;
     border-radius: 3px;
-    box-sizing: padding-box;
-    margin: 160px 510px 159px 508px;
     padding: 77px 171px 29px 178px;
 }
-.section__top-title{
+
+.module__top {
+    color: #3c3c3c;
     cursor: move;
     display: flex;
     flex-direction: row;
@@ -84,7 +80,8 @@
     top: 0;
     left: 0;
 }
-.section__top-title::before {
+
+.module__top::before {
     border-radius: 3px 0 0 0;
     display: block;
     content: "";
@@ -92,7 +89,8 @@
     height: 1px;
     border-top: solid 2px #3c3c3c;
 }
-.section__top-title::after {
+
+.module__top::after {
     border-radius: 0 3px 0 0;
     display: block;
     content: "";
@@ -100,34 +98,82 @@
     height: 1px;
     border-top: solid 2px #3c3c3c;
 }
-.section__title {
+
+.top__content {
     height: 48px;
     color: #3c3c3c;
     font-size: 34px;
     font-weight: bold;
     overflow: hidden;
     flex: 1 0 235px;
-    margin-top: -31px;
+    margin-top: -27px;
     text-align: center;
 }
-.section__subtitle {
+
+.module__contents {
     height: 100%;
     width: 100%;
+    color: black;
 }
+
 /*Section services start*/
-.section__services{
+.section__services {
+    display: flex;
     height: 500px;
-    background-color: #ffffff;
-    background-image: url(../media/services.png);
-    background-repeat: no-repeat;
-    background-size: auto;
+    align-items: center;
+    justify-content: center;
+    background: url(../media/services.png) center no-repeat
 }
+
+.module__top--light {
+    color: white;
+}
+
+.top__content--light {
+    color: white;
+}
+
+.module--light{
+    border-right: solid 2px #ffffff;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
+}
+
+.module__top--light::before,
+.module__top--light::after {
+    border-top: solid 2px white;
+}
+.module__contents--light{
+    color: white;
+}
+
+
 /*Section services end*/
 
 /*Section what start*/
-.section__what{
+.section__what {
     height: 1422px;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.module--big {
+    width: 902px;
+    height: 1145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icomoon{
+    font-size: 40px;
+}
+.what__title{
+    margin-top: 40px;
+    margin-bottom: 37px;
+}
+.what__exact:not(:last-child) .what__sub{
+    margin-bottom: 120px;
 }
 /*Section what end*/
 
@@ -142,35 +188,42 @@
     height: 489px;
 }
 
-.slider__tab{
+.slider__tab {
     width: 548px;
     height: 237px;
 
 }
-.slider__tab1{
+
+.slider__tab1 {
     width: 802px;
     height: 237px;
 
 }
-.tab__1{
+
+.tab__1 {
     background-image: url("../media/topworkz.png");
 
 }
-.tab__3{
-     background-image: url("../media/joint.png");
- }
-.tab__2{
+
+.tab__3 {
+    background-image: url("../media/joint.png");
+}
+
+.tab__2 {
     background-image: url("../media/market.png");
 }
 
-.tab__5{
+.tab__5 {
     background-image: url("../media/worktop.png");
 }
-.tab__4{
+
+.tab__4 {
     background-image: url("../media/label.png");
 }
 
-.tab__6{
+.tab__6 {
     background-image: url("../media/kyiv.png");
 }
+.tab__info
+
 /*Section slider end*/
