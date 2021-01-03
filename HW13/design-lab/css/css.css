@@ -1,0 +1,276 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/*Section header start*/
+.section__header {
+    width: 1920px;
+    height: 1072px;
+    background: url("../media/hero-bg.png") center no-repeat #cccccc;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__working {
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 8.64px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.header__title {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    width: 579px;
+    height: 70px;
+    text-align: center;
+}
+
+.scroll {
+    margin-top: 245px;
+}
+
+.logo--eclipse {
+    margin-bottom: 70px;
+}
+
+/*Section header end*/
+.top__content {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.module__contents {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+/*Section about*/
+.section__about {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.module {
+    width: 902px;
+    height: 330px;
+    position: relative;
+    border-right: solid 2px #3c3c3c;
+    border-bottom: solid 2px #3c3c3c;
+    border-left: solid 2px #3c3c3c;
+    border-radius: 3px;
+    padding: 77px 171px 29px 178px;
+}
+
+.module__top {
+    color: #3c3c3c;
+    cursor: move;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.module__top::before {
+    border-radius: 3px 0 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    height: 1px;
+    border-top: solid 2px #3c3c3c;
+}
+
+.module__top::after {
+    border-radius: 0 3px 0 0;
+    display: block;
+    content: "";
+    flex: 2 0 0;
+    height: 1px;
+    border-top: solid 2px #3c3c3c;
+}
+
+.top__content {
+    height: 48px;
+    color: #3c3c3c;
+    font-size: 34px;
+    font-weight: bold;
+    overflow: hidden;
+    flex: 1 0 235px;
+    margin-top: -27px;
+    text-align: center;
+}
+
+.module__contents {
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+/*Section services start*/
+.section__services {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background: url(../media/services.png) center no-repeat
+}
+
+.module__top--light {
+    color: white;
+}
+
+.top__content--light {
+    color: white;
+}
+
+.module--light{
+    border-right: solid 2px #ffffff;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
+    height: 265px;
+}
+
+.module__top--light::before,
+.module__top--light::after {
+    border-top: solid 2px white;
+}
+.module__contents--light{
+    color: white;
+}
+
+
+/*Section services end*/
+
+/*Section what start*/
+.section__what {
+    height: 1422px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.module--big {
+    width: 902px;
+    height: 1145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icomoon{
+    font-size: 40px;
+}
+.what__title{
+    margin-top: 40px;
+    margin-bottom: 37px;
+}
+.what__exact:not(:last-child) .what__sub{
+    margin-bottom: 120px;
+}
+/*Section what end*/
+
+/*Section slider start*/
+.section__slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    height: 489px;
+}
+.slider__tab,
+.slider__tab1{
+    display:flex;
+    align-items:flex-end;
+}
+.slider__tab {
+    width: 548px;
+    height: 237px;
+}
+
+.slider__tab1 {
+    width: 802px;
+    height: 237px;
+}
+
+.tab__1 {
+    background-image: url("../media/topworkz.png");
+
+}
+
+.tab__3 {
+    background-image: url("../media/joint.png");
+}
+
+.tab__2 {
+    background-image: url("../media/market.png");
+}
+
+.tab__5 {
+    background-image: url("../media/worktop.png");
+}
+
+.tab__4 {
+    background-image: url("../media/label.png");
+}
+
+.tab__6 {
+    background-image: url("../media/kyiv.png");
+}
+.tab__info{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 5.44px;
+    color: #ffffff;
+    margin-left: 43px;
+    margin-bottom: 30px;
+}
+/*Section slider end*/
+/*Section contact end*/
+.section__contact {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.btn__contact{
+    width: 395px;
+    height: 58px;
+    margin: 42px 76px 0 72px;
+    border: solid 2px black;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn__text{
+    font-size: 16px;
+    letter-spacing: 2.56px;
+    color: #ffffff;
+    /*text-align: center;*/
+}
+.footer__contact{
+    /*display:flex;*/
+    display: inline-block;
+    justify-content:center;
+    align-items:flex-end;
+}
+.footer__contact{
+    margin-top: 77px;
+}
+.sign__contact{
+    margin-right: 57px;
+}
+/*Section contact end*/
