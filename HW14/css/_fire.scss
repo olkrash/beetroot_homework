@@ -1,0 +1,24 @@
+
+.section__fire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+   .line1{
+     position: absolute;
+     width: 210px;
+     height: 1px;
+     background-color: #ffcc00;
+     left: 490px;
+    }
+  .line2{
+    position: absolute;
+    width: 210px;
+    height: 1px;
+    background-color: #ffcc00;
+    right: 490px;
+  }
+
+}
