@@ -1,0 +1,35 @@
+@media screen and (max-width: 1440px){
+  body{
+    max-width: 100%
+  }
+  .section__slider{
+    width: 100%;
+    margin: 0 auto 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+  }
+  .slider__tab{
+    flex-basis: 33.33%;
+  }
+}
+@media screen and (max-width: 768px){
+  body{
+    max-width: 750px;
+  }
+  .header__working{
+    font-size: 22px;
+  }
+}@media screen and (max-width: 375px){
+  body{
+    max-width: none;
+    display: block;
+  }
+  .header__working{
+    font-size: 22px;
+  }
+}

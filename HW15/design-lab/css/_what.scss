@@ -1,0 +1,24 @@
+.section__what {
+  height: 1422px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.module--big {
+  max-width: 902px;
+  height: 1145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icomoon{
+  font-size: 40px;
+}
+.what__title{
+  margin-top: 40px;
+  margin-bottom: 37px;
+}
+.what__exact:not(:last-child) .what__sub{
+  margin-bottom: 120px;
+}

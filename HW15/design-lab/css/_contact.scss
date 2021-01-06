@@ -1,0 +1,36 @@
+.section__contact {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.btn__contact{
+  width: 395px;
+  height: 58px;
+  margin: 42px 76px 0 72px;
+  border: solid 2px black;
+  background-color: black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.btn__text{
+  font-size: 16px;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+  /*text-align: center;*/
+}
+.footer__contact{
+  /*display:flex;*/
+  display: inline-block;
+  justify-content:center;
+  align-items:flex-end;
+}
+.footer__contact{
+  margin-top: 77px;
+}
+.sign__contact{
+  margin-right: 57px;
+}
