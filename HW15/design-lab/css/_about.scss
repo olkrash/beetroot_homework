@@ -1,6 +1,6 @@
 .section__about {
   display: flex;
-  height: 800px;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -16,8 +16,6 @@
 }
 
 .module {
-  max-width: 902px;
-  min-height: 330px;
   position: relative;
   border-right: solid 2px #3c3c3c;
   border-bottom: solid 2px #3c3c3c;

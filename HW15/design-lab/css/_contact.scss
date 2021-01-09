@@ -1,10 +1,10 @@
 .section__contact {
-  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  margin-top: 45px;
 }
 .btn__contact{
   width: 395px;
@@ -20,11 +20,10 @@
   font-size: 16px;
   letter-spacing: 2.56px;
   color: #ffffff;
-  /*text-align: center;*/
 }
 .footer__contact{
-  /*display:flex;*/
-  display: inline-block;
+  display:flex;
+  //display: inline-block;
   justify-content:center;
   align-items:flex-end;
 }

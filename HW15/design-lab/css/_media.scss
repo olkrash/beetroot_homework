@@ -2,6 +2,15 @@
   body{
     max-width: 100%
   }
+  .section__header{
+    padding: 10px;
+  }
+  .section__about{
+    height: 58vh;
+  }
+  .section__services{
+    height: 58vh;
+  }
   .section__slider{
     width: 100%;
     margin: 0 auto 200px;
@@ -14,22 +23,91 @@
     align-content: space-between;
   }
   .slider__tab{
-    flex-basis: 33.33%;
+    flex-basis: 21.33%;
   }
 }
 @media screen and (max-width: 768px){
   body{
-    max-width: 750px;
   }
-  .header__working{
-    font-size: 22px;
+  .section__header{
+    .logo--eclipse{
+    margin-top: 20px;}
+    .header__working{
+      font-size: 22px;
+    }
   }
-}@media screen and (max-width: 375px){
+  .section__about{
+    height: 50vh;
+  }
+  .module{
+    padding: 30px;
+  }
+  .section__slider{
+    height: 100%;
+    .slider__tab{
+      height: 30vh;
+      flex-basis: 100%;
+      background-size: 100% 100%;
+    }
+  }
+  .section__contact{
+    margin-top: -105px;
+  }
+}
+@media screen and (max-width: 375px){
   body{
     max-width: none;
     display: block;
   }
-  .header__working{
-    font-size: 22px;
+  .section__header{
+    .header__working{
+      font-size: 22px;
+    }
+  }
+  .section__slider{
+    display: block;
+  }
+  .section__services{
+    height: 90vh;
+    margin-top: 310px;
+  }
+  .module{
+    height: 100vw;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 20px;
+  .top__content,
+  .top__content--light{
+  font-size: 22px;
+  }
+  }
+  .section__about{
+    margin-top: 30px;
+    display: block;
+    height: 40vh;
+  }
+  .section__what{
+    margin-top: 115px;
+    height: 52vh;
+    .what__exact:not(:last-child) .what__sub {
+      margin-bottom: 60px;
+    }
+  }
+  .section__slider{
+    margin-top: 730px;
+    .slider__tab {
+    flex-basis: 100%;
+  }
+  }
+  .section__contact{
+    .btn__contact{
+      width: 85%;
+      height: 18%;
+      margin: 5px auto;
+    }
+  }
+  .footer__contact{
+    margin-top: -54px;
   }
 }
