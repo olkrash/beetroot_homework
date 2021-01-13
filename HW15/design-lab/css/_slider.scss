@@ -1,0 +1,56 @@
+.section__slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  height: 489px;
+}
+.slider__tab,
+.slider__tab1{
+  display:flex;
+  align-items:flex-end;
+}
+.slider__tab {
+  width: 548px;
+  height: 237px;
+}
+
+.slider__tab1 {
+  width: 802px;
+  height: 237px;
+}
+
+.tab__1 {
+  background-image: url("../media/topworkz.png");
+
+}
+
+.tab__3 {
+  background-image: url("../media/joint.png");
+}
+
+.tab__2 {
+  background-image: url("../media/market.png");
+}
+
+.tab__5 {
+  background-image: url("../media/worktop.png");
+}
+
+.tab__4 {
+  background-image: url("../media/label.png");
+}
+
+.tab__6 {
+  background-image: url("../media/kyiv.png");
+}
+.tab__info{
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 5.44px;
+  color: #ffffff;
+  margin-left: 43px;
+  margin-bottom: 30px;
+}

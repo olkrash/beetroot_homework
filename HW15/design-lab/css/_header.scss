@@ -1,0 +1,42 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  max-height: 100%;
+  max-width:100%;
+}
+.section__header {
+  background: url("../media/hero-bg.png") center no-repeat #cccccc;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .header__working {
+    font-weight: bold;
+    font-size: 54px;
+    letter-spacing: 8.64px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .header__title {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .scroll {
+     margin-top: 245px;
+    margin-bottom: 25px;
+   }
+
+  .logo--eclipse {
+    margin-bottom: 70px;
+  }
+}
+
+
+

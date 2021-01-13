@@ -1,0 +1,32 @@
+.section__services {
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../media/services.png) center no-repeat
+}
+
+.module__top--light {
+  color: white;
+}
+
+.top__content--light {
+  color: white;
+}
+
+.module--light{
+  border-right: solid 2px #ffffff;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  height: 265px;
+}
+
+.module__top--light::before,
+.module__top--light::after {
+  border-top: solid 2px white;
+}
+.module__contents--light{
+  color: white;
+}
+
