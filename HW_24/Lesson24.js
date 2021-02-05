@@ -5,7 +5,7 @@ let result = 0;
 for (let i = fromNumber; i <= endNumber; i++) {
     result += i;
 }
-alert(result)
+console.log(result)
 
 // 2.Запросить 2 числа и найти только наибольший общий делитель.
 const twoNumbers = prompt('Enter two digits using coma: ')
@@ -14,23 +14,24 @@ let firstNum = +twoArr[0]
 let secondNum = +twoArr[1]
 for (let i = firstNum; i >= 1; i--) {
     if (firstNum % i === 0 && secondNum % i === 0) {
-        alert(i);
+        console.log(i);
         break;
     }
 }
 
 // 3.Запросить у пользователя число и вывести все делители этого числа.
 const mainNumber = +prompt('Enter the number to find all dividers');
-for (let i = mainNumber -1; i >= 1; i-- ){
-    if(mainNumber % i === 0){
-        alert(i);
-        break;
+let arr = [];
+for (let i = mainNumber - 1; i >= 1; i--) {
+    if (mainNumber % i === 0) {
+        arr.push(i);
     }
 }
+console.log(arr);
 
 // 4.Определить количество цифр в введенном числе.
-const Number = prompt('Enter any number: ');
-alert('You entered ' + Number.length + ' digits');
+const num = prompt('Enter any number: ');
+console.log('You entered ' + num.length + ' digits');
 
 // 5.Запросить у пользователя 10 чисел и подсчитать, сколько он ввел положительных, отрицательных и нулей. При этом также посчитать, сколько четных и нечетных. Вывести статистику на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел пользователем.
 const enterDigits = prompt('Enter 10 digits using coma');
@@ -41,7 +42,7 @@ let zeros = 0;
 let odd = 0;
 let even = 0;
 for (let digit of digitArr) {
-    digit = Number(digit);
+    digit = +digit;
     if (digit === 0) {
         zeros++;
         continue;
@@ -59,14 +60,29 @@ for (let digit of digitArr) {
         positive++;
     }
 }
-alert('Odds: ' + odd + '\nEvens ' + even + '\nZeros ' + zeros + '\nNegatives ' + negative + '\nPositives ' + positive);
+console.log('Odds: ' + odd + '\nEvens ' + even + '\nZeros ' + zeros + '\nNegatives ' + negative + '\nPositives ' + positive);
 
 // 6. Зациклить калькулятор. Запросить у пользователя 2 числа и знак, решить пример, вывести результат и спросить, хочет ли он решить еще один пример. И так до тех пор, пока пользователь не откажется.
 while (true) {
     const enterDigits = prompt('Enter 2 digits and operator for resolving using comas for example: 2, 2, + . Your turn: ');
     const digitArr = enterDigits.split(',');
-    alert(eval(digitArr[0] + digitArr[2] + digitArr[1]))
-    let answer = prompt('Would you like to calculate more? (yes, no)')
+    let result = 0;
+    switch (digitArr[2]) {
+        case "-" :
+            result = digitArr[0] - digitArr[1];
+            break;
+        case "+" :
+            result = digitArr[0] + digitArr[1];
+            break;
+        case "/" :
+            result = digitArr[0] / digitArr[1];
+            break;
+        case "*" :
+            result = digitArr[0] * digitArr[1];
+            break;
+    }
+    console.log(result);
+    let answer = prompt('Would you like to calculate more? (yes, no)');
     if (answer === 'no') {
         break;
     }
@@ -76,12 +92,12 @@ while (true) {
 let userNumber = prompt('Enter any number: ');
 let firstTwoDigits = userNumber.substr(0, 2);
 userNumber = userNumber.substr(2);
-alert('New number is ' + userNumber + firstTwoDigits);
+console.log('New number is ' + userNumber + firstTwoDigits);
 
 // 8.Зациклить вывод дней недели таким образом: «День недели. Хотите увидеть следующий день?» и так до тех пор, пока пользователь нажимает OK.
 let currentDate = new Date();
 while (true) {
-    alert(new Intl.DateTimeFormat('ru-RU', {weekday: 'long'}).format(currentDate));
+    console.log(new Intl.DateTimeFormat('ru-RU', {weekday: 'long'}).format(currentDate));
 
     let question = confirm('День недели. Хотите увидеть следующий день ?')
     if (!question) {
@@ -105,7 +121,7 @@ outerLoop: while (true) {
     let question = prompt(`Ваше число > ${currNum}, < ${currNum} или = ${currNum}?`);
     switch (question) {
         case "=" :
-            alert('Thanks for the game !')
+            console.log('Thanks for the game !')
             break outerLoop;
         case '>' :
             fromNum = currNum + 1;
