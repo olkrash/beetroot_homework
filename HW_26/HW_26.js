@@ -72,12 +72,12 @@ function Time(hour, minute, second) {
         this.minute = (secondsLeft - this.second) / 60;
     }
     // Функция изменения времени на переданное количество минут;
-    this.addMinutes = function (minutes){
+    this.addMinutes = function (minutes) {
         this.addSeconds(minutes * 60);
     }
     // Функция изменения времени на переданное количество часов.
-    this.addHours = function (hours){
-        this.addSeconds(hours * 3600 );
+    this.addHours = function (hours) {
+        this.addSeconds(hours * 3600);
     }
 }
 
@@ -95,38 +95,56 @@ myTime.print();
 //30 секунд, то должно получиться «20:31:15», а не «20:30:75».
 
 
-// // 3.Создать объект user  со свойствами name, age, role.
-// const user = {
-//             name: "name",
-//     age: age,
-//     role: "role",
-// };
-// //Создать второй объект admin и унаследовать все свойства объекта user , кроме значения
-// //свойства role.
-// const admin = Object.assign({}, user.age, user.name)
-// //Также в объектах должны быть два метода, первый метод length() выводит
-// //в консоль количество ключей в объекте,
-// //при вызове метода  user.length()  должно отобразиться количество ключей;
-// //второй метод checkPermission()  показывает alert с текстом "Access granted"
-// //если role === 'admin', и "Access denied" если role === 'user'.
-//
-//
-//
-// // 4.Создать функцию createUser() которая создает объект со значениями
-// //name, age, height, weight.
-// function createUser (name = "Yourname",age = 30,height = 190,weight = 85){
-//     return{
-//         name,
-//         age,
-//         height,
-//         weight,
-//     }
-// }
-// //Функция должна вызываться так createUser('John', 39, 178, 67)
-// console.log(createUser('John', 39, 178, 67));
-// //Для свойств age, height, weight должен быть тип number, иначе вывести alert,
-// //что неверный тип и объект не должен создаться.
-// if (this.age, this.height, this.weight !== Number;)
-//     console.log("Alert, these keys should have numeric sentence")
-// //Если в функцию не переданы аргументы, вывести аргументы по умолчанию.
+// 3.Создать объект user  со свойствами name, age, role.
+//Создать второй объект admin и унаследовать все свойства объекта user , кроме значения свойства role.
+//Также в объектах должны быть два метода, первый метод length() выводит
+//в консоль количество ключей в объекте,
+//при вызове метода  user.length()  должно отобразиться количество ключей;
+//второй метод checkPermission()  показывает alert с текстом "Access granted"
+//если role === 'admin', и "Access denied" если role === 'user'.
+
+const user = {
+    name: "Vasya",
+    age: 25,
+    role: "user",
+    length: function () {
+        return Object.getOwnPropertyNames(user)
+    },
+    checkPermission: function () {
+        if (this.role === 'admin') {
+            return 'granted'
+        }
+
+        return 'forbidden'
+    }
+};
+
+console.log(user.length())
+console.log(user.checkPermission())
+const admin = Object.assign({}, user)
+admin.role = "admin"
+console.log(admin.checkPermission())
+
+// 4.Создать функцию createUser() которая создает объект со значениями
+//name, age, height, weight.
+//Для свойств age, height, weight должен быть тип number, иначе вывести alert,
+//что неверный тип и объект не должен создаться.
+//Если в функцию не переданы аргументы, вывести аргументы по умолчанию.
+//Функция должна вызываться так createUser('John', 39, 178, 67)
+function createUser(name = '', age = 0, height = 0, weight = 0) {
+    if (typeof age !== 'number' || typeof height !== 'number' || typeof weight !== 'number') {
+        alert("wrong data provided")
+        return
+    }
+
+    return {
+        name: name,
+        age: age,
+        height: height,
+        weight: weight,
+    }
+}
+
+console.log(createUser('John', 39, 178, 67));
+
 
