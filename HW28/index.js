@@ -41,29 +41,21 @@ console.log(o.diameter);
 console.log(o.area());
 console.log(o.circleLength());
 // 2) Реализовать класс, описывающий простой маркер. В классе должны быть следующие компоненты:
-//
-//     поле, которое хранит цвет маркера;
+// поле, которое хранит цвет маркера;
 // поле, которое хранит количество чернил в маркере (в процентах);
 // метод для печати (метод принимает строку и выводит текст соответствующим цветом; текст выводится до тех пор, пока в маркере есть чернила; один не пробельный символ – это 0,5% чернил в маркере).
 // Реализовать класс, описывающий заправляющийся маркер, унаследовав его от простого маркера и добавив метод для заправки маркера.
-//     Продемонстрировать работу написанных методов.
+// Продемонстрировать работу написанных методов.
 class Marker {
     constructor (color, inkPercent) {
         this.color = color;
         this.inkPercent = inkPercent;
-    }
-    get markerProps() {
-        return [this.color, this.inkPercent];
-    }
-    set markerProps(newProps) {
-        [this.color, this.inkPercent] = [...newProps];
     }
     print(line) {
         let content = document.getElementById('content');
         console.log(content);
 
         for(let i = 0; i < line.length; i++) {
-
             if (this.inkPercent !== 0) {
                 if (line[i] === ' ') {
                     this.inkPercent += 0.5;
@@ -81,16 +73,8 @@ class Marker {
 
 const marker = new Marker('green', 5);
 console.log(marker);
-//marker.print('hfhfng khkhh.');  // hfhfng khkh Marker is over
 
 class FilledMarker extends Marker {
-    fill(inkPercent) {
-        if (inkPercent > 100) {
-            inkPercent = 100;
-        } else {
-            this.inkPercent += inkPercent;
-        }
-    }
 }
 
 let marker2 = new FilledMarker ('red', 60);
@@ -99,8 +83,6 @@ let text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibus
 marker2.print(text);
 
 document.body.setAttribute("style", "font-size: 18px; text-align: center;");
-
-
 
 //3) Реализовать класс Employee, описывающий работника, и создать массив работников банка.
 //Реализовать класс EmpTable для генерации HTML-кода таблицы со списком работников банка.
